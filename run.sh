@@ -1,5 +1,5 @@
 #!/bin/bash
 
 echo "RUNNING..."
-python3 main.py
+bash server.sh & bash client.sh
 echo "FINISHED."
